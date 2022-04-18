@@ -75,8 +75,8 @@ a {
 
   .active .menu__hamburguer i {
     position: absolute;
-    top: 28px;
-    right: 10px;
+    top: 46px;
+    right: 20px;
   }
 
   .active nav {
