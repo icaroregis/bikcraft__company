@@ -1,6 +1,6 @@
 @import './global/global.css';
+@import './components/typography.css';
 @import './global/header.css';
 @import './home/home.css';
 @import './components/components.css';
-@import './components/typography.css';
 @import './components/color__palette.css';
