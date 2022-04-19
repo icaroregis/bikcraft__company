@@ -23,10 +23,70 @@
   color: var(--color-0);
 }
 
+.color__1 {
+  color: var(--color-1);
+}
+
+.color__2 {
+  color: var(--color-2);
+}
+
+.color__3 {
+  color: var(--color-3);
+}
+
+.color__4 {
+  color: var(--color-4);
+}
+
 .color__5 {
   color: var(--color-5);
 }
 
+.color__6 {
+  color: var(--color-6);
+}
+
+.color__7 {
+  color: var(--color-7);
+}
+
+.color__8 {
+  color: var(--color-8);
+}
+
+.color__9 {
+  color: var(--color-9);
+}
+
+.color__10 {
+  color: var(--color-10);
+}
+
+.color__11 {
+  color: var(--color-11);
+}
+
+.color__12 {
+  color: var(--color-12);
+}
+
 .color__p1 {
   color: var(--color-p1);
+}
+
+.color__p2 {
+  color: var(--color-p2);
+}
+
+.color__p3 {
+  color: var(--color-p3);
+}
+
+.color__p4 {
+  color: var(--color-p4);
+}
+
+.color__p5 {
+  color: var(--color-p5);
 }
