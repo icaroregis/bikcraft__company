@@ -33,23 +33,15 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 1200px) {
-  .introducao h1 {
-    font-size: 48px;
-  }
-
-  .introducao p {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 800px) {
+@media (max-width: 980px) {
   .introducao__bg {
     background-color: var(--color-11);
     padding-top: 40px;
     box-shadow: inset 0 -60px var(--color-0);
   }
+}
 
+@media (max-width: 800px) {
   .introducao {
     grid-template-columns: 1fr;
     gap: 32px;

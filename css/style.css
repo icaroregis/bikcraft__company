@@ -1,6 +1,7 @@
 @import './global/global.css';
 @import './components/typography.css';
-@import './global/header.css';
-@import './home/home.css';
-@import './components/components.css';
 @import './components/color__palette.css';
+@import './global/header.css';
+@import './components/components.css';
+@import './home/home.css';
+@import './bicicletas/bike__list.css';

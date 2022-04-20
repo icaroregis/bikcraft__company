@@ -52,3 +52,24 @@
 .font__1__xs {
   font: 600 0.75rem/1.33 'Roboto', sans-serif;
 }
+
+@media (max-width: 1200px) {
+  .font__1__xxl {
+    font-size: 3rem;
+  }
+
+  .font__2__l,
+  .font__2__l__b {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .font__1__xxl {
+    font-size: 2rem;
+  }
+
+  .font__1__xl {
+    font-size: 1.5rem;
+  }
+}
