@@ -5,4 +5,6 @@
 @import './components/components.css';
 @import './home/home.css';
 @import './home/technology.css';
+@import './home/parceiros.css';
+@import './home/depoimento.css';
 @import './bicicletas/bike__list.css';
