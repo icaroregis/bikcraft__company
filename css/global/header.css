@@ -1,15 +1,14 @@
 .header__bg {
   background-color: var(--color-12);
+  padding: 20px 0px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header__menu {
@@ -46,6 +45,10 @@
 }
 
 @media (max-width: 580px) {
+  .header__bg {
+    padding: 0px 0px;
+  }
+
   .header {
     height: 93px;
   }

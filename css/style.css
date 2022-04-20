@@ -4,4 +4,5 @@
 @import './global/header.css';
 @import './components/components.css';
 @import './home/home.css';
+@import './home/technology.css';
 @import './bicicletas/bike__list.css';
