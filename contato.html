@@ -50,7 +50,7 @@
     </div>
 
     <div class="contato container">
-      <section aria-label="Endereço">
+      <section class="contato__dados" aria-label="Endereço">
         <h2 class="font__1__m color__0">Loja On Line</h2>
         <div class="contato__endereco font__2__s color__4">
           <p>Rua Ali Perto, 35</p>
@@ -76,6 +76,32 @@
           </a>
         </div>
       </section>
+
+      <section class="contato__formulario" aria-label="Formulário">
+        <form class="form" action="./contato.html">
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+          </div>
+
+          <div>
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone" placeholder="(85) 99999-9999">
+          </div>
+
+          <div class="col__2">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="contato@email.com">
+          </div>
+
+          <div class="col__2">
+            <label for="mensagem">mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Oque você precisa ?"></textarea>
+          </div>
+
+          <button class="button">Enviar mensagem</button>
+        </form>
+      </section>
     </div>
   </main>
 
@@ -98,7 +124,7 @@
 
         <div class="footer__redes__sociais">
           <a href="">
-            <img class='color__0' src="./img/redes/instagram.svg" alt="Instagran">
+            <img class='color__0' src="./img/redes/instagram-p.svg" alt="Instagran">
           </a>
           <a class="color__0" href="">
             <img class="color__0" src="./img/redes/facebook-p.svg" alt="Facebook">
