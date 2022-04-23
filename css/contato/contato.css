@@ -2,9 +2,26 @@
   background: var(--color-1);
 }
 
+.title__bg__special {
+  width: 100%;
+  background: var(--color-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 560px;
+}
+
+#contato main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
 .contato {
   display: grid;
   grid-template-columns: 5fr 7fr;
+  position: absolute;
+  top: 280px;
+  margin: 0 auto;
 }
 
 .contato__dados,
@@ -74,7 +91,19 @@
   padding-left: 2px;
 }
 
+.lojas.container {
+  padding-top: 400px;
+}
+
 @media (max-width: 800px) {
+  .contato {
+    top: 200px;
+  }
+
+  .lojas.container {
+    padding-top: 580px;
+  }
+
   .contato {
     grid-template-columns: 1fr;
   }
@@ -99,5 +128,11 @@
 
   .contato__redes {
     margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .lojas.container {
+    padding-top: 650px;
   }
 }
