@@ -1,6 +1,7 @@
 @import './global/global.css';
 @import './components/typography.css';
 @import './components/color__palette.css';
+@import './components/animacoes.css';
 @import './global/header.css';
 @import './global/footer.css';
 @import './components/components.css';
