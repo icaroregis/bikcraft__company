@@ -1,3 +1,4 @@
+const links = document.querySelectorAll('.header__menu a');
 let active = true;
 
 const container__menu__hamburguer = document.querySelector(
@@ -10,3 +11,14 @@ menu__hamburguer.addEventListener('click', () => {
   container__menu__hamburguer.classList.toggle('active', active);
   active = !active;
 });
+
+function ativarLinks(link) {
+  const url = window.location.href;
+  const href = link.href;
+
+  if (url.includes(href)) {
+    link.classList.add('active');
+  }
+}
+
+links.forEach(ativarLinks);
