@@ -1,4 +1,4 @@
-const links = document.querySelectorAll('.header__menu a');
+//menu hamburguer
 let active = true;
 
 const container__menu__hamburguer = document.querySelector(
@@ -12,6 +12,9 @@ menu__hamburguer.addEventListener('click', () => {
   active = !active;
 });
 
+//ativar links do site
+const links = document.querySelectorAll('.header__menu a');
+
 function ativarLinks(link) {
   const url = window.location.href;
   const href = link.href;
@@ -22,3 +25,13 @@ function ativarLinks(link) {
 }
 
 links.forEach(ativarLinks);
+
+//ativar itens de orçamento
+const parametros = new URLSearchParams(location.search);
+
+function ativarProduto(parametro) {
+  const elemento = document.getElementById(parametro);
+  elemento ? (elemento.checked = true) : '';
+}
+
+parametros.forEach(ativarProduto);
