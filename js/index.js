@@ -1,4 +1,4 @@
-//menu hamburguer
+//1. menu hamburguer
 let active = true;
 
 const container__menu__hamburguer = document.querySelector(
@@ -12,7 +12,7 @@ menu__hamburguer.addEventListener('click', () => {
   active = !active;
 });
 
-//ativar links do site
+//2. ativar links do site
 const links = document.querySelectorAll('.header__menu a');
 
 function ativarLinks(link) {
@@ -26,7 +26,7 @@ function ativarLinks(link) {
 
 links.forEach(ativarLinks);
 
-//ativar itens de orçamento
+//3. ativar itens de orçamento
 const parametros = new URLSearchParams(location.search);
 
 function ativarProduto(parametro) {
@@ -36,7 +36,7 @@ function ativarProduto(parametro) {
 
 parametros.forEach(ativarProduto);
 
-//perguntas frequentes
+//4. perguntas frequentes
 const perguntas = document.querySelectorAll('.perguntas button');
 
 function eventosPerguntas(pergunta) {
@@ -53,7 +53,7 @@ function eventosPerguntas(pergunta) {
 
 perguntas.forEach(eventosPerguntas);
 
-//galeria de bicicletas
+//5. galeria de bicicletas
 const galeria = document.querySelectorAll('.bicicleta__imagem img');
 const galeriaContainer = document.querySelector('.bicicleta__imagem');
 
